@@ -1,0 +1,24 @@
+.footerMainContainer{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  background: rgba(rgb(21, 0, 255), rgb(9, 0, 128), blue);
+  backdrop-filter: blur(20px);
+}
+
+.footerLogoContainer{
+    margin-left: 85px;
+    color: white;
+}
+
+.navFooterContainer{
+    margin-right: 85px;
+    display: flex;
+    gap: 65px;
+
+}
+
+.navFooterContainer > a{
+    color: white;
+}
