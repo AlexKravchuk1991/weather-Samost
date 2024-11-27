@@ -9,7 +9,7 @@ interface IWeather  {
 
 
 
-interface IWetherData{
+export interface IWetherData{
     coord: {
     lon: number
     lat: number

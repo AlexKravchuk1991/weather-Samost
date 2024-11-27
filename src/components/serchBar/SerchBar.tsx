@@ -11,7 +11,7 @@ export default function SerchBar() {
 
     const data = await result.json();
     setWetherData(data);
-    addToHistory(data);
+   
     console.log(data);
   };
 

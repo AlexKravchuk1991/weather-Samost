@@ -1,5 +1,4 @@
 :root {
-  width: 500px;
   background-image: url("./imag/pic 2.png");
   width: 100%;
 
@@ -16,7 +15,7 @@ a:hover {
 
 body {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100lvh;
 }
 
 h1 {

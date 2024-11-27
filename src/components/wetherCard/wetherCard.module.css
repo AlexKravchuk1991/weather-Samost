@@ -28,10 +28,30 @@
 }
 
 .cityCont{
-    font-size: 20px;
+    font-size: 25px;
     color: white;
 }
 
 .imgCont > img{
 height: 100px;
+}
+
+.buttonConteiner{
+margin-top: 20px;
+display: flex;
+justify-content: space-around;
+}
+
+.buttonConteiner > button{
+    width: 150px;
+    height: 50px;
+    background: none;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+.buttonConteiner>button:disabled{
+    cursor: not-allowed;
 }
